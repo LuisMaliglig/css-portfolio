@@ -1,0 +1,36 @@
+.sidebar {
+    background-color: #2d3748; /* Dark theme background */
+    color: #ffffff; /* Text color for dark theme */
+    font-size: large;
+}
+
+.sidebar button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #2d3748; /* Darker button background */
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    border-radius: 20px; /* Pill-shaped */
+    transition: background-color 0.2s;
+    color: #ffffff; /* Text color */
+}
+
+.sidebar button:hover {
+    background-color: #1a202c; /* Hover state */
+}
+
+.sidebar button.active {
+    background-color: #f8f9fa; /* Highlighted state background */
+    color: #1a202c; /* Highlighted state text color */
+}
+
+.sidebar button:focus {
+    outline: none;
+}
+
+.sidebar button .sidebar-text {
+    display: block;
+}
